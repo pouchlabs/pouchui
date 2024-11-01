@@ -1,0 +1,28 @@
+{
+  "name": "pouchui",
+  "version": "1.0.0",
+  "description": "functional svelte 5 ui-kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pouchlabs/pouchui.git"
+  },
+  "workspaces":["./apps","./packages"],
+  "keywords": [
+    "ui",
+    "ui-kit",
+    "svelte",
+    "5",
+    "tailwindcss",
+    "daisyui"
+  ],
+  "author": "pouchlabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pouchlabs/pouchui/issues"
+  },
+  "homepage": "https://github.com/pouchlabs/pouchui#readme"
+}
