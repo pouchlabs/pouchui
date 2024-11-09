@@ -1,6 +1,7 @@
 {
 	"name": "pouchui",
 	"version": "1.0.0",
+	"description": "a functional svelte 5 ui-kit",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -20,6 +21,7 @@
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*"
 	],
+	"keywords": ["svelte","ui kit","ui library","sveltekit","svelte 5"],
 	"sideEffects": [
 		"**/*.css"
 	],
@@ -63,5 +65,9 @@
 		"typescript-eslint": "^8.0.0",
 		"vite": "^5.0.11",
 		"vitest": "^2.0.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https:github.com/pouchlabs/pouchui"
 	}
 }
